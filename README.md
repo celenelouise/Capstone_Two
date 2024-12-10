@@ -13,12 +13,12 @@ The data used was acquired from Kaggle and contains information on customer purc
 
 ## 2. EDA
 [EDA Report](https://github.com/celenelouise/Capstone_Two/blob/main/EDA%20Prediciting%20Purchase%20Behavior.ipynb)
-In exploring the data the visualizations made it very clear that there was a distinct relationship between time spent on the sight and whether or not a purchase was made. The median time spent with no purchase is around 20 minutes, whereas the median time spent with a purchase is around 35 minutes. 
+In exploring the data the visualizations made it very clear that there was a distinct relationship between time spent on the site and whether or not a purchase was made. The median time spent with no purchase is around 20 minutes, whereas the median time spent with a purchase is around 35 minutes. 
 
 ## 3. Preprocessing & Standardizing 
 [Preprocessing Report](https://github.com/celenelouise/Capstone_Two/blob/main/Preprocessing%20and%20Training%20Purchase%20Behavior.ipynb)
 Here I found through visualizations that the data had a non-linear relationship between our categorical and numerical features, this helped me make a more informed decision on the type of models that would suit this data best.
 
-## 4. Models
-[Model Report](https://github.com/celenelouise/Capstone_Two/blob/main/Modeling%20Purchase%20Behavior.ipynb)
-I chose to use Logistic Regression, Random Forest Classifer, and Gradient Boosting Classifer. Since my correlations are moderate and do not suggest strong linear relationships, ensemble methods made like Random Forest and Gradient Boosting made sense. I chose to start with Logistic Regression as it serves as a strong baseline for binary classification and that is exactly what our target variable PurchaseStatus was!
+## 4. Algorithms & Machine Learning
+[ML Report](https://github.com/celenelouise/Capstone_Two/blob/main/Modeling%20Purchase%20Behavior.ipynb)
+I chose to use Logistic Regression, Random Forest Classifer, and Gradient Boosting Classifer. Since my correlations are moderate and do not suggest strong linear relationships, ensemble methods like Random Forest and Gradient Boosting made sense. I chose to start with Logistic Regression as it serves as a strong baseline for binary classification and that is exactly what our target variable PurchaseStatus was!
