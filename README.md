@@ -21,4 +21,13 @@ Here I found through visualizations that the data had a non-linear relationship 
 
 ## 4. Algorithms & Machine Learning
 [ML Report](https://github.com/celenelouise/Capstone_Two/blob/main/Modeling%20Purchase%20Behavior.ipynb)
+
 I chose to use Logistic Regression, Random Forest Classifer, and Gradient Boosting Classifer. Since my correlations are moderate and do not suggest strong linear relationships, ensemble methods like Random Forest and Gradient Boosting made sense. I chose to start with Logistic Regression as it serves as a strong baseline for binary classification and that is exactly what our target variable PurchaseStatus was!
+
+Among the three models, Random Forest is the most suitable choice for this analysis. It delivers superior accuracy (93%) on the test set, consistent cross-validation performance (91%), and interpretability through feature importance analysis. The feature importance provided by Random Forest can help pinpoint the key demographic drivers of purchase decisions—such as annual income, age, or gender—offering actionable insights for businesses to tailor marketing campaigns. For example, focusing discounts or product recommendations on specific age groups or income segments can maximize ROI while minimizing marketing inefficiencies.
+
+## Future Work
+Behavioral Features: Integrating behavioral variables, such as website engagement metrics, product categories browsed, or purchase history, to improve model performance.
+Advanced Models: Exploring ensemble techniques like stacking or using neural networks for more complex interactions.
+Scalability: Validating the models on larger and more diverse datasets to ensure generalizability across various business contexts.
+Cost-Benefit Analysis: Applying cost-sensitive learning to optimize for business-specific objectives, such as revenue maximization or customer lifetime value.
