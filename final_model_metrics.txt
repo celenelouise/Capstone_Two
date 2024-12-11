@@ -1,0 +1,74 @@
+
+## Model Summary
+
+- Model Type: Random Forest Classifier
+- Objective: Predict customer purchase behavior based on demographic and behavioral data.
+
+## Features
+
+### Numeric Features:
+1. Age
+2. AnnualIncome
+3. NumberOfPurchases
+4. TimeSpentOnWebsite
+5. DiscountsAvailed
+
+### Categorical Features:
+1. Gender
+2. ProductCategory
+3. LoyaltyProgram
+
+## Preprocessing Steps
+
+1. Scaling Numeric Features: MinMaxScaler()
+2. Encoding Categorical Features: OneHotEncoder()
+
+### ColumnTransformer Used:
+```
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', MinMaxScaler(), numeric_features),
+        ('cat', OneHotEncoder(), categorical_features)
+    ]
+)
+```
+
+## Model Parameters
+
+- Random State: 42 (for reproducibility)
+
+### Hyperparameters:
+
+- Number of Estimators (n_estimators): 100
+- Criterion: gini (default)
+- Max Depth (max_depth): None (default)
+- Min Samples Split (min_samples_split): 2 (default)
+- Min Samples Leaf (min_samples_leaf): 1 (default)
+
+## Performance Metrics
+
+### Evaluation on Test Set:
+
+- Accuracy: 93%
+- Cross-Validation Score (Mean): 91%
+
+### Classification Report:
+
+| Metric                | Class 0 (No Purchase) | Class 1 (Purchase) |
+|------------------------|----------------------|--------------------|
+| Precision              | 0.92                 | 0.94               |
+| Recall                 | 0.95                 | 0.90               |
+| F1-Score               | 0.93                 | 0.92               |
+
+## Feature Importance
+
+1. AnnualIncome: Highest Importance
+2. Age
+3. TimeSpentOnWebsite
+
+These features had the strongest influence on predicting purchase behavior.
+
+## Code Reference
+
+For the full code and detailed documentation, please refer to the GitHub repository:
+[Capstone Project Repository](https://github.com/celenelouise/Capstone_Two)
