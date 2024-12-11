@@ -28,6 +28,6 @@ Among the three models, Random Forest is the most suitable choice for this analy
 
 ## Future Work
 Behavioral Features: Integrating behavioral variables, such as website engagement metrics, product categories browsed, or purchase history, to improve model performance.
-Advanced Models: Exploring ensemble techniques like stacking or using neural networks for more complex interactions.
+Advanced Models: Exploring customer conversion through discounts. As well as utilizing ensemble techniques like stacking or using neural networks for more complex interactions.
 Scalability: Validating the models on larger and more diverse datasets to ensure generalizability across various business contexts.
 Cost-Benefit Analysis: Applying cost-sensitive learning to optimize for business-specific objectives, such as revenue maximization or customer lifetime value.
