@@ -31,3 +31,5 @@ Behavioral Features: Integrating behavioral variables, such as website engagemen
 Advanced Models: Exploring customer conversion through discounts. As well as utilizing ensemble techniques like stacking or using neural networks for more complex interactions.
 Scalability: Validating the models on larger and more diverse datasets to ensure generalizability across various business contexts.
 Cost-Benefit Analysis: Applying cost-sensitive learning to optimize for business-specific objectives, such as revenue maximization or customer lifetime value.
+
+[Slide Deck Presentation](https://docs.google.com/presentation/d/1C3zMvBmJej1kkol-O2pnr0hQcraYJYQ4/edit?usp=sharing&ouid=113921076744743036608&rtpof=true&sd=true)
